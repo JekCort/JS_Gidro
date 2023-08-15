@@ -9,6 +9,7 @@ html {
 a {
     text-decoration: none;
     color: inherit;
+    display: inline-block;
 }
 
 ul, li {
@@ -25,6 +26,7 @@ p {
     margin: 0;
 }
 
+
 body {
     font-family: 'SFProDisplay-Regular', Sans-Serif;
     color: #2F3035;
@@ -33,6 +35,9 @@ body {
     font-weight: 400;
 }
 
+section {
+    margin-bottom: 80px;
+}
 
 /***********HEADER************/
 
@@ -112,7 +117,7 @@ body {
 }
 
 .header__bottom {
-    margin-bottom: 78px;
+    margin-bottom: 80px;
 }
 
 .menu-categories {
@@ -295,7 +300,7 @@ body {
 }
 
 .sale-item__price-old::after {
-    content:"";
+    content: "";
     background-image: url("../images/Hryvna-old.svg");
     position: absolute;
     width: 20px;
@@ -304,21 +309,21 @@ body {
     right: -10px;
 }
 
-.sale-item__footer{
+.sale-item__footer {
     padding: 25px 20px;
     background-color: #F0F0F4;
     font-size: 18px;
     line-height: 21px;
 }
 
-.sale-item__footer span{
+.sale-item__footer span {
     color: #1C62CD;
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
 
 }
 
-.sale-item__title{
+.sale-item__title {
     margin-bottom: 7px;
     font-size: 18px;
     line-height: 21px;
@@ -326,11 +331,75 @@ body {
     font-weight: 700;
 
 }
-.banner-section-slider-img{
+
+.banner-section-slider-img {
     object-fit: cover;
     min-height: 400px;
 }
 
-.sale-item__img{
+.sale-item__img {
     object-fit: contain;
 }
+
+/***********SECTION BANNER END************/
+
+
+/***********SECTION SEARCH************/
+
+.search__tabs {
+    margin-bottom: 25px;
+}
+
+.search__tabs-item {
+    padding: 11px 26px 12px;
+}
+
+.search__tabs-item-active {
+    border-radius: 5px;
+    background-color: #F0F0F4;
+    font-family: 'SFProDisplay-Bold', Sans-Serif;
+    font-weight: 700;
+}
+
+.search__content-item{
+    display: none;
+}
+
+.search__content-item-active{
+display: block;
+}
+
+.search__content-form {
+    display: flex;
+}
+
+.search__content-input {
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 3px 0 0 3px;
+    background: #F0F0F4;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.search__content-input::placeholder {
+    color: #656464;
+}
+
+.search__content-btn {
+    color: #FFF;
+    font-family: 'SFProDisplay-Bold', Sans-Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #1C62CD;
+    padding: 17px 40px;
+    border: none;
+}
+
+/***********SECTION SEARCH END************/
