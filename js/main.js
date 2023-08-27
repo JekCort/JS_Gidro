@@ -18,12 +18,18 @@ $(function () {
     });
 
 
-    $('.product__item-favorite').on('click', function (){
-        $('.product__item-favorite').toggleClass('product__item-favorite-active')
+    $('.product__item-favorite').on('click', function () {
+        $(this).toggleClass('product__item-favorite-active')
     });
 
 
-    $('.product__slider').slick({});
+    $('.product__slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<button class="product__slider-slider-btn product__slider-slider-btnprev"><img src="../images/arrow-black-left.svg" alt="Arrow left"></button>',
+        nextArrow: '<button class="product__slider-slider-btn product__slider-slider-btnnext"><img src="../images/arrow-black-right.svg" alt="Arrow left"></button>'
+    });
+
 
 });
 
