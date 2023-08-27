@@ -699,7 +699,7 @@ section {
 }
 
 .product__more-link{
-    margin:35px 0 80px ;
+    margin:35px 0 0 ;
     padding: 16px 43px;
     font-size: 15px;
     line-height: normal;
@@ -709,3 +709,113 @@ section {
 }
 
 /***********PRODUCTS SECTION END************/
+
+.banner{
+    margin-bottom: 72px;
+}
+
+/***********FOOTER************/
+
+.footer{
+    background-color: #F0F0F4;
+}
+
+.footer-top{
+    padding-top: 43px;
+}
+
+.footer-top__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top__item{
+    width: 200px;
+}
+
+.footer-top__newslatter{
+    width: 295px;
+    margin-right: 25px;
+}
+
+.footer-top__title{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-form{
+    margin-top: 34px;
+    display: flex;
+}
+
+.footer-form__input{
+background-color: #FFF;
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0;
+}
+
+.footer-form__input::placeholder{
+    color: #C4C4C4;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+.footer-form__btn{
+    padding: 10px 16px;
+text-transform: uppercase;
+    background-color: #1C62CD;
+    border: none;
+    color: #FFF;
+    font-family: 'SFProDisplay-Semibold', Sans-Serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0.12em;
+}
+
+.footer-list{
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-list__item{
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer-top__social{
+    width: 250px;
+}
+
+.social-list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.social-list__item + .social-list__item{
+    margin-left: 30px;
+}
+
+.footer-bottom{
+   padding: 46px 0 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom__link{
+    color: #48494D;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0 40px;
+}
+
+
+
+
+
+/***********FOOTER END************/
