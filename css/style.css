@@ -815,7 +815,53 @@ text-transform: uppercase;
 }
 
 
-
-
-
 /***********FOOTER END************/
+
+
+
+                        /***********CATALOG************/
+
+.breadcrumbs{
+    margin-bottom: 40px;
+}
+
+.breadcrumbs-list__item{
+    display: inline-block;
+    padding-right: 16px;
+    margin-right: 16px;
+    position: relative;
+    color: #C4C4C4;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.breadcrumbs-list__item::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    background-image: url('../images/link-arrow.svg');
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 11px;
+
+}
+.breadcrumbs-list__item:last-child::after{
+    display: none;
+}
+
+
+/***********CATALOG SECTION************/
+
+.catalog{
+
+}
+
+
+
+
+
+
+/***********CATALOG SECTION END************/
