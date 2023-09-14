@@ -30,6 +30,11 @@ $(function () {
         nextArrow: '<button class="product__slider-slider-btn product__slider-slider-btnnext"><img src="../images/arrow-black-right.svg" alt="Arrow left"></button>'
     });
 
+    $('.filter-style').styler();
+$('.filter-item__drop').on('click', function (){
+    $(this).toggleClass('filter-item__drop--active');
+    $(this).next().slideToggle('200');
+})
 
 });
 
