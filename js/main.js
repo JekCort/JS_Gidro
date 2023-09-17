@@ -31,10 +31,16 @@ $(function () {
     });
 
     $('.filter-style').styler();
-$('.filter-item__drop').on('click', function (){
-    $(this).toggleClass('filter-item__drop--active');
-    $(this).next().slideToggle('200');
-})
+    $('.filter-item__drop').on('click', function () {
+        $(this).toggleClass('filter-item__drop--active');
+        $(this).next().slideToggle('200');
+    })
+
+    $(".js-range-slider").ionRangeSlider({
+        type: "double",
+        min: 100000,
+        max: 500000,
+    });
 
 });
 
