@@ -1102,7 +1102,7 @@ width: 100%;
 
 
 .irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
-    display: block;
+    display: none;
 }
 .irs--flat .irs-min, .irs--flat .irs-max {
     top: 55px;
@@ -1166,21 +1166,92 @@ position: absolute;
 
 
 .aside-filter__item--list{
-    margin: 80px 0 40px;
+    margin: 46px 0 40px;
+
+}
+
+.filter-item__list{
+    padding-top: 34px;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #C4C4C4;
 }
 
-.filter-item__list{
-
-}
-
 .filter-item__list--title{
     padding-bottom: 14px;
+    padding-left: 26px;
     font-family: 'SFProDisplay-Semibold', Sans-Serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
 }
+
+
+.filter-item__list--select{
+
+}
+
+.jq-selectbox__select {
+
+    color: #48494D;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    height: 18px;
+    padding: 0 25px 0 10px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+
+.jq-selectbox__trigger-arrow {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border: none;
+}
+
+.jq-selectbox__trigger {
+    position: absolute;
+    background-image: url(../images/arrow-filter.svg);
+    top: 6px;
+    right: 9px;
+    width: 12px;
+    height: 8px;
+    border-left: none;
+}
+
+
+.jq-selectbox.focused .jq-selectbox__select {
+    border: none;
+}
+
+.jq-selectbox__select:hover,
+.jq-selectbox__select:active{
+    background: transparent;
+    box-shadow: none;
+}
+
+.jq-selectbox li:hover,
+.jq-selectbox li.selected{
+    background-color: rgba(107, 126, 172, 0.05);
+   color: rgba(0, 0, 0, 0.6);
+}
+
+.jq-selectbox li{
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.jq-selectbox__dropdown {
+    padding-top: 15px;
+    border-radius: 0;
+
+}
+
 /***********CATALOG SECTION END************/
