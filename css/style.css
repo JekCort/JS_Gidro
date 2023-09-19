@@ -511,9 +511,16 @@ section {
 .product__item-wrapper {
     width: 271px;
     position: relative;
+    transition: all .3s;
 }
 
+.product__item-wrapper.product__item-wrapper--list{
+    width: 100%;
+}
+
+
 .product__item {
+    width: 100%;
     padding: 52px 20px 31px;
     border-radius: 3px;
     border: 1px solid #CDCDCD;
@@ -526,6 +533,7 @@ section {
     font-size: 18px;
     padding: 14px 0 25px;
     font-weight: normal;
+    line-height: 21px;
 
 }
 
@@ -903,12 +911,37 @@ section {
     margin-left: 10px;
 }
 
-button .catalog-filter__btngrid {
+.select-item{
+    margin-right: 34px;
+    padding: 7px 10px 7px 20px;
+border: 1px solid #D7D9DF;
+    font-size: 14px;
+    line-height: 17px;
 
 }
 
-button .catalog-filter__btnline {
+.catalog-filter__btn{
+    display: flex;
+    align-items: center;
+}
 
+button.catalog-filter__btngrid {
+    width: 26px;
+    height: 21px;
+}
+
+button.catalog-filter__btnline {
+    width: 25px;
+    height: 19px;
+}
+
+.catalog-filter__button{
+    opacity: 0.3;
+    outline: none;
+}
+
+.catalog-filter__button--active{
+    opacity: 1;
 }
 
 .catalog-inner {
@@ -1250,8 +1283,10 @@ button .catalog-filter__btnline {
 }
 
 .jq-selectbox__dropdown {
+    margin: 7px 0 0;
     padding-top: 15px;
     border-radius: 0;
+    left: 0;
 }
 
 .filter-more {
@@ -1398,4 +1433,20 @@ button .catalog-filter__btnline {
     border-bottom: 1px solid #C4C4C4;
     display: inline-block;
 }
+
+.catalog-filter__btn{
+
+}
+
+.catalog-filter__btngrid{
+
+}
+
+.catalog-filter__btnline{
+
+}
+
+
+
+
 /***********CATALOG SECTION END************/
