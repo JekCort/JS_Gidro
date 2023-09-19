@@ -1029,13 +1029,14 @@ button .catalog-filter__btnline {
 }
 
 .aside-filter__content {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .aside-filter__content--box {
     width: 50%;
+    margin-bottom: 10px;
 }
 
 .aside-filter__content--label {
@@ -1251,7 +1252,36 @@ position: absolute;
 .jq-selectbox__dropdown {
     padding-top: 15px;
     border-radius: 0;
-
 }
+
+.filter-more{
+    width: 100%;
+}
+
+.filter-more__btn{
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #1C62CD;
+    background-color: transparent;
+    color: #1C62CD;
+    line-height: normal;
+    font-size: 14px;
+}
+
+.filter-search{
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+.aside-filter__content input[placeholder]{
+    padding: 8px 20px;
+    color: #BDBEC2;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 /***********CATALOG SECTION END************/
