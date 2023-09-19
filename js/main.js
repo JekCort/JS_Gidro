@@ -31,7 +31,7 @@ $(function () {
     });
 
     $('.filter-style').styler();
-    $('.filter-item__drop').on('click', function () {
+    $('.filter-item__drop, .filter-extra').on('click', function () {
         $(this).toggleClass('filter-item__drop--active');
         $(this).next().slideToggle('200');
     })
