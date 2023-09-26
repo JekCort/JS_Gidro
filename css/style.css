@@ -1454,7 +1454,7 @@ button.catalog-filter__btnline {
     font-family: 'Barlow', sans-serif;
 }
 
-.product-card__img-box::before{
+.product-card__img-box::before {
     padding: 13px 25px;
     font-size: 15px;
     font-style: normal;
@@ -1502,7 +1502,7 @@ button.catalog-filter__btnline {
     max-width: 570px;
 }
 
-.product-card__title{
+.product-card__title {
     margin-bottom: 10px;
     font-family: 'SFProDisplay-Bold', Sans-Serif;
     font-size: 30px;
@@ -1511,7 +1511,7 @@ button.catalog-filter__btnline {
     line-height: normal;
 }
 
-.product-card__code{
+.product-card__code {
     margin-bottom: 22px;
     font-size: 15px;
     font-style: normal;
@@ -1520,11 +1520,11 @@ button.catalog-filter__btnline {
     opacity: 0.6;
 }
 
-.product-card__buttons{
+.product-card__buttons {
     margin-bottom: 50px;
 }
 
-.product-card__tab{
+.product-card__tab {
     margin-bottom: 5px;
     padding-bottom: 5px;
     padding-right: 17px;
@@ -1535,32 +1535,32 @@ button.catalog-filter__btnline {
     opacity: 0.6;
 }
 
-.product-card__tab + .product-card__tab{
+.product-card__tab + .product-card__tab {
     padding-left: 17px;
 }
 
-.product-card__tab.tab-active{
+.product-card__tab.tab-active {
     border-bottom: 2px solid #1C62CD;
     font-weight: 700;
     opacity: 1;
 }
 
-.product-card__item{
+.product-card__item {
     padding: 15px 0 6px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(47,48,53,0.1);
+    border-bottom: 1px solid rgba(47, 48, 53, 0.1);
 }
 
-.product-card__item--left{
+.product-card__item--left {
     padding-right: 15px;
 }
 
-.product-card__item--right{
+.product-card__item--right {
     width: 125px;
 }
 
-.product-card__more{
+.product-card__more {
     margin-bottom: 40px;
     color: #1C62CD;
     font-size: 14px;
@@ -1570,13 +1570,13 @@ button.catalog-filter__btnline {
     border-bottom: 1px solid #1C62CD;
 }
 
-.product-card__list{
+.product-card__list {
     margin-bottom: 20px;
 }
 
-.product-cars__btn button{
+.product-cars__btn button {
     padding: 16px 56px;
-    color:  #FFF;
+    color: #FFF;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1589,7 +1589,121 @@ button.catalog-filter__btnline {
     cursor: pointer;
 }
 
-.product-card__buttons a + a{
+.product-card__buttons a + a {
     margin-left: 30px;
+}
+.card__tabs{
+    margin-bottom: 100px;
+}
+
+.card__tab-box {
+    margin-bottom: 50px;
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F0F0F4;
+}
+
+.card__tab {
+    color: #2F3035;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.card__tab.tab-active {
+    opacity: 1;
+    border-bottom: 2px solid #1C62CD;
+}
+
+.card-top__line {
+    margin-bottom: 30px;
+}
+
+.card-label__search {
+    color: rgba(47, 48, 53, .7);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-input__search {
+    margin-left: 17px;
+    margin-right: 100px;
+    padding: 9px 37px 9px 17px;
+    border-radius: 3px;
+    background: #F0F0F4;
+    border: none;
+}
+
+.card-label__pickup {
+    margin-left: 54px;
+    font-size: 17px;
+    line-height: normal;
+    color: rgba(47, 48, 53, .7);
+}
+
+.card-list__item {
+    padding: 20px 0;
+    display: flex;
+    border-bottom: 1px solid rgba(47, 48, 53, 0.1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(47, 48, 53, 0.7);
+}
+
+.card-list__item-title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(47, 48, 53, 1);
+}
+
+.card-list__address {
+    width: 220px;
+    margin-right: 80px;
+}
+
+.card-list__workhours {
+    width: 157px;
+    margin-right: 96px;
+}
+
+.card-list__workhours span {
+    display: block;
+}
+
+.workhours{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-list__num {
+    width: 104px;
+
+}
+
+.card-list__btn {
+    margin-left: auto;
+}
+.card-list__btn button {
+    padding: 10px 40px;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #1C62CD;
+    border: none;
 }
 /***********PRODUCT PAGE END************/
