@@ -42,16 +42,23 @@ $(function () {
         max: 500000,
     });
 
-    $('.catalog-filter__btngrid').on('click', function (){
+    $('.catalog-filter__btngrid').on('click', function () {
         $(this).addClass('catalog-filter__button--active');
         $('.catalog-filter__btnline').removeClass('catalog-filter__button--active');
         $('.product__item-wrapper').removeClass('product__item-wrapper--list')
     });
 
-    $('.catalog-filter__btnline').on('click', function (){
+    $('.catalog-filter__btnline').on('click', function () {
         $(this).addClass('catalog-filter__button--active');
         $('.catalog-filter__btngrid').removeClass('catalog-filter__button--active');
         $('.product__item-wrapper').addClass('product__item-wrapper--list')
+    });
+
+
+    $(".rate-yo").rateYo({
+        ratedFill: "#1C62CD",
+        normalFill: "#C4C4C4",
+        spacing: "7px"
     });
 });
 
