@@ -28,11 +28,13 @@ p {
 
 
 body {
+    min-width: 320px;
     font-family: 'SFProDisplay-Regular', Sans-Serif;
     color: #2F3035;
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 section {
@@ -49,15 +51,15 @@ section {
 }
 
 .header__top-inner {
+    padding: 25px 0 21px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 122px;
     font-family: 'SFProDisplay-Bold', Sans-Serif;
     font-weight: 700;
 }
 
-.menu__btn{
+.menu__btn {
     display: none;
 }
 
@@ -65,8 +67,61 @@ section {
     display: inline-block;
 }
 
+.logo__img{
+
+}
+
 .menu__item + .menu__item {
     padding-left: 50px;
+}
+
+.menu-mobile__list {
+    width: 243px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    transform: translateX(-100%);
+    transition: all .3s;
+    position: absolute;
+    z-index: 10;
+    background-color: #FFFFFF;
+}
+
+.menu-mobile__list > p {
+    padding: 65px 0 135px 44px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.menu-mobile__list-active {
+    transform: translateX(0);
+}
+
+.menu-mobile__item {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);;
+}
+
+.menu-mobile__link {
+    padding-left: 53px;
+    padding-top: 36px;
+    display: block;
+
+}
+
+.menu-mobile__img {
+    position: absolute;
+    left: 11px;
+    bottom: 0;
+}
+
+.menu-mobile__line-wrapper {
+display: none;
+}
+
+.logo-text{
+    display: none;
 }
 
 .header__box {
@@ -1596,7 +1651,8 @@ button.catalog-filter__btnline {
 .product-card__buttons a + a {
     margin-left: 30px;
 }
-.card__tabs{
+
+.card__tabs {
     margin-bottom: 100px;
 }
 
@@ -1684,7 +1740,7 @@ button.catalog-filter__btnline {
     display: block;
 }
 
-.workhours{
+.workhours {
     display: flex;
     justify-content: space-between;
 }
@@ -1697,6 +1753,7 @@ button.catalog-filter__btnline {
 .card-list__btn {
     margin-left: auto;
 }
+
 .card-list__btn button {
     padding: 10px 40px;
     color: #FFF;
@@ -1710,4 +1767,5 @@ button.catalog-filter__btnline {
     background: #1C62CD;
     border: none;
 }
+
 /***********PRODUCT PAGE END************/
