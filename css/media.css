@@ -1,0 +1,48 @@
+@media (max-width: 1100px) {
+    /*HEADER*/
+    .menu__item + .menu__item {
+        padding-left: 20px;
+    }
+
+    .header__address {
+        margin-right: 20px;
+    }
+
+
+}
+
+@media (max-width: 968px){
+    /*HEADER*/
+
+.header__bottom{
+    display: none;
+}
+
+.menu__list{
+    display: none;
+}
+
+    .menu__btn{
+        display: block;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+
+    .menu__btn-line{
+        width: 34px;
+        height: 3px;
+        margin: 8px 0;
+        border-radius: 3px;
+        background: #2F3035;
+    }
+
+}
+
+@media (max-width: 640px) {
+    /*HEADER*/
+    .header__address{
+        display: none;
+    }
+
+}

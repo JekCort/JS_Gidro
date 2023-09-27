@@ -57,6 +57,10 @@ section {
     font-weight: 700;
 }
 
+.menu__btn{
+    display: none;
+}
+
 .menu__item {
     display: inline-block;
 }
